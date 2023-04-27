@@ -6,73 +6,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
-    <style>
-        body {
-            background-color: #E8C2CA;
-        }
-
-        h2,
-        .descricao-foto {
-            font-family: sans-serif, Helvetica;
-        }
-
-        .java {
-            font-size: 20px;
-        }
-
-        .sql {
-            font-size: 20px;
-        }
-
-        .bootstrap {
-            font-size: 20px;
-        }
-
-        .metodologias {
-            font-size: 20px;
-        }
-
-        .spring {
-            font-size: 20px;
-        }
-
-        #link-foto,
-        #link-cafe,
-        #link-http {
-            color: #490e57;
-        }
-    </style>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
 
     <h1>Olá, Seja bem vindo(a) ao meu Portifólio!!!</h1>
-    <h2>Meu nome é Karina...</h2>
-    <img id="foto" src="./img/Foto de Karina Gomes (4).jpg" alt="Foto de Karina Bueno" width="300px">
-    <p class="descricao-foto"><em>Um de meus hobbies(modelando)</em></p>
-    <br>
-    <p class="descricao-eu">Sou Natural de Campinas - São Paulo, e atualmente <strong>aluna da Trybe!</strong>
-        Estou migrando de área, comecei na área de biológicas, porém com a tecnologia foi amor a primeira vista.
-    </p>
-    <br>
-    <h2><strong>Habilidades Adquiridas:</strong></h2>
-    <ul>
-        <li class="java">Java</li>
-        <li class="sql">SQL</li>
-        <li class="bootstrap">Bootstrap</li>
-        <li class="metologias">Metodologias Ágeis</li>
-        <li class="spring">Spring Boot</li>
-    </ul>
+    <div class="nome">
+        <h2>Meu nome é Karina...</h2>
+    </div>
+    <img src="./img/Foto de Karina Gomes (4).jpg" alt="Foto de Karina Bueno" width="300px" class="foto">
+    <div class="descricao-foto">
+        <p><em>Um de meus hobbies(modelando)</em></p>
+    </div>
+    <div class="descricao-eu">
+        <p>Sou Natural de Campinas - São Paulo, e atualmente <strong>aluna da Trybe!</strong>
+            Estou migrando de área, comecei na área de biológicas, porém com a tecnologia foi amor a primeira vista.
+        </p>
+    </div>
+    <div class="outros">
+        <h2><strong>Habilidades Adquiridas:</strong></h2>
+        <ul>
+            <li class="java">Java</li>
+            <li class="sql">SQL</li>
+            <li class="bootstrap">Bootstrap</li>
+            <li class="metologias">Metodologias Ágeis</li>
+            <li class="spring">Spring Boot</li>
+        </ul>
 
-    <a id="link-foto" href="#foto">Minha Foto</a><br><br>
+        <a id="link-foto" href="#foto">Minha Foto</a><br><br>
 
-    <h3>Links Úteis</h3>
-    <a id='link-cafe' href="https://www.graogourmet.com/blog/conheca-os-tipos-de-graos-de-cafe/" target="_blank">Vamos
-        falar sobre
-        café?</a>
-    <br>
-    <a id='link-http' href="https://http.cat/" target="_blank
+        <h3>Links Úteis</h3>
+        <a id='link-cafe' href="https://www.graogourmet.com/blog/conheca-os-tipos-de-graos-de-cafe/"
+            target="_blank">Vamos
+            falar sobre
+            café?</a>
+        <br>
+        <a id='link-http' href="https://http.cat/" target="_blank
     ">Http divertido</a>
+    </div>
 
 </body>
 

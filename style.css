@@ -1,0 +1,67 @@
+body {
+    background-color: #E8C2CA;
+}
+
+h2,
+.descricao-foto {
+    font-family: sans-serif, Helvetica;
+}
+
+.java {
+    font-size: 20px;
+}
+
+.sql {
+    font-size: 20px;
+}
+
+.bootstrap {
+    font-size: 20px;
+}
+
+.metodologias {
+    font-size: 20px;
+}
+
+.spring {
+    font-size: 20px;
+}
+
+#link-foto,
+#link-cafe,
+#link-http {
+    color: #490e57;
+}
+
+.nome {
+    position: absolute;
+    margin-left: 500px;
+    z-index: 1;
+}
+
+.foto {
+    position:absolute;
+    top: 170px;
+    margin-left: 20px;
+    padding: 10px;
+    background-color: #490e57;
+    z-index: 2;
+}
+
+.descricao-foto {
+    position:absolute;
+    top:610px;
+    left: 360px;
+    z-index: 3;
+}
+
+.descricao-eu {
+    position: absolute;
+    top: 650px;
+    margin-left: 20px;
+}
+
+.outros {
+    position: absolute;
+    top: 700px;
+}
